@@ -1,0 +1,142 @@
+[*********************100%***********************]  1 of 1 completed
+401 Client Error: Unauthorized for url: https://api.robinhood.com/positions/?nonzero=true
+401 Client Error: Unauthorized for url: https://api.robinhood.com/portfolios/
+401 Client Error: Unauthorized for url: https://api.robinhood.com/accounts/
+Canceling order
+401 Client Error: Unauthorized for url: https://api.robinhood.com/orders/
+Traceback (most recent call last):
+  File "RSITrader.py", line 407, in <module>
+    rsi_scalper(stock, money_available, scalp)
+  File "RSITrader.py", line 271, in rsi_scalper
+    TradingTools.cancel_order(symbol)
+  File "C:\Users\Peter\PycharmProjects\Trader\TradingTools.py", line 75, in cancel_order
+    orders = robin_stocks.find_stock_orders(symbol=symbol)
+  File "C:\Users\Peter\AppData\Local\Programs\Python\Python38\lib\site-packages\robin_stocks\helper.py", line 31, in login_wrapper
+    return(func(*args, **kwargs))
+  File "C:\Users\Peter\AppData\Local\Programs\Python\Python38\lib\site-packages\robin_stocks\orders.py", line 168, in find_stock_orders
+    item['quantity'] = str(int(float(item['quantity'])))
+TypeError: 'NoneType' object is not subscriptable
+
+C:\Users\Peter\PycharmProjects\Trader>
+
+==========================================================================================================
+
+Current Status of GPRO @2020-07-30 13:32:31-04:00
+---------------------
+Starting Value: 250.0
+Total Value: 249.9952392578125
+---------------------
+Stock Price: 5.179900169372559
+RSI Value: 59.846214957379836
+Stocks Owned: 48.0
+Buys: 5 Sells: 7 Cancels: 4
+[*********************100%***********************]  1 of 1 completed
+Canceling order
+Found Additional pages.
+Loading page 2 ...
+Loading page 3 ...
+Loading page 4 ...
+Loading page 5 ...
+Loading page 6 ...
+Loading page 7 ...
+Loading page 8 ...
+Loading page 9 ...
+Loading page 10 ...
+Order 5468832c-8243-4ec4-9b3d-792e88240aa6 cancelled
+Order 555cb587-e7d4-45b4-bd86-a17ea646c1bf cancelled
+Order 1e03feab-351d-4ea3-bf8d-675a53cb9cb7 cancelled
+Order 668ad021-d617-4261-a4eb-91d6730892ff cancelled
+Order d0d6eddf-d0d5-4536-831c-f6e3d742e1dd cancelled
+Order 97774fd7-e0b7-4eaf-bf62-9e3076600f7f cancelled
+Order e3d67731-df88-453d-9a71-e1408bc48ee7 cancelled
+Order fcfcf23b-4728-4bce-bd6d-af6071a2015d cancelled
+Order b19a555b-fb9e-47b1-8cc5-4e48b0c2db65 cancelled
+Order 13138b64-b5c2-42e5-b1e1-2218e8856ce7 cancelled
+Order 2338994e-ad8d-4eb3-8ee4-af763a43ec39 cancelled
+Order 86184171-2654-44f0-b3bb-86bdb4280c3d cancelled
+Order af2d6261-4153-4c5c-b1a4-8f84c00eea21 cancelled
+Order 4cbb480b-dc0f-47de-b19e-0006071689ae cancelled
+Order fc05af91-2d69-4847-8aae-6d0455bda17a cancelled
+Order 868ba3d7-2a7d-4349-8e20-2acfab3dc64f cancelled
+Order 438d6c17-7999-49c6-91ca-82ae53ae228a cancelled
+Order 7a305a54-7736-443d-93f9-0b702ed2a13d cancelled
+Order 416ab08b-3795-4152-89a5-c01ab83befe7 cancelled
+Order cb397953-083d-4fe1-84fa-bad7e6b580f9 cancelled
+Order 81b22ac7-f2ab-48af-856a-8153fec34fc9 cancelled
+Order 56c6f650-155f-473c-a06b-9abf7a8f98c1 cancelled
+Order 1b60b54a-e54a-419b-90e0-692cb4a7e49c cancelled
+Order 3c47501c-1531-4027-bea6-b60bd74af425 cancelled
+Order 2445a623-5084-4a5f-8671-eece7217e1f8 cancelled
+Order 9d8c25d0-f340-434d-9c21-e5eef4abc382 cancelled
+Order 77af0ab5-b798-4c82-9bb7-ac33697b0d2d cancelled
+Order 0ebfd651-fd6a-441b-bc48-415846600969 cancelled
+Order 2058e0c8-fb79-4f2e-b154-e0a7e4e845ea cancelled
+Order 4f8ce59f-c2a0-4d20-9377-80d2bbef6eb5 cancelled
+Order 93f173b1-7c70-4b5a-aac5-9c5d00cedd75 cancelled
+Order 2547de20-aa87-40b0-8164-2ed5c0f7768c cancelled
+Order 5c7820cb-42ec-4b83-bafa-bcd82420d2b9 cancelled
+Order aa042767-253f-46ce-9430-f23895d5a5b1 cancelled
+Order 158afb67-3fd0-4d59-851d-0ad56db5330f cancelled
+Order 7d97e4ea-aa80-4ce5-bd8c-2dae61017e75 cancelled
+Order b8f13d06-c612-47e7-b111-9c42e3071894 cancelled
+Order 414a1f95-d456-439a-9f31-e070b5e0e9b7 cancelled
+Order e69251e9-f2cb-4981-9a17-b5d1c985989b cancelled
+Order b7e296be-d8b4-44d1-bb06-73627dd7454b cancelled
+Order e1bf5762-c695-4d94-9f35-a66f84028194 cancelled
+Order 393db701-3b11-4b2e-9971-adece1e709df cancelled
+Order 8ccac03f-144b-4a8c-ad1f-8238a4521a4c cancelled
+Order f1216818-71d3-4cc3-a874-8998bb8b8cc7 cancelled
+Order 671dc129-c048-4392-a463-c4edb00dfc15 cancelled
+Order 58500bdc-d79b-4527-8227-142abae1294e cancelled
+Order 2458f961-a3ae-4c86-bf4b-fb5c029535f6 cancelled
+Order 0703f046-f79f-4668-a824-3f1b682dd7fe cancelled
+Order 5f833297-9203-489e-bcf7-2dd50aaf48b0 cancelled
+Order e4dbf6f1-72c5-4f11-8654-5f49d634f800 cancelled
+Order 1a534de2-3f63-474d-9cf2-04a063bb27fb cancelled
+Order 6fea4d30-feef-4c88-b8c7-cac308fdc8e1 cancelled
+Order 2e549141-dd58-47c4-a45b-55953db7d318 cancelled
+Order 15ccc079-2587-4add-9aa9-c837bd05d7df cancelled
+Order 50b0c6a5-a660-4a4f-9271-539a685c36ce cancelled
+Order ae9de585-85c1-4314-8cf8-0a381b4e8b08 cancelled
+Order 6cba0f17-d671-478a-9b34-6dea20bbf463 cancelled
+Order 420d4f65-3e2b-4e4c-8696-f7d8e74958ed cancelled
+Order 6f44af93-6486-47b7-9a24-db3c8e7ee289 cancelled
+Order ee5064f5-932f-46e6-9e4a-a281ea5b06d6 cancelled
+Order 80cdee5d-9ea3-41fd-92fd-4ed0b6981455 cancelled
+Order 654bd1ca-85d0-4c72-acfd-3f0f1b34a29a cancelled
+Order 2f9f3d57-7a5d-48c6-9e5f-a84d710e9a00 cancelled
+Order 4fc1ee66-4467-41da-8877-e5cc0dc3e2f7 cancelled
+Order e2dc30dd-b4be-46e9-9938-926f01ba1f68 cancelled
+Order 0b8605ff-e384-4fb5-b582-5941d6d8a13c cancelled
+Order 16d6aa9c-5a65-40a8-8d12-55126d3e6865 cancelled
+Order 9793128a-1653-4bf9-b172-e72d622d8ee6 cancelled
+Order 36ee19c2-c8cb-4718-abb5-de74607d45b7 cancelled
+Order 7397b740-f3e9-4f4d-8236-3ce0de28a0ea cancelled
+Order e33f486f-0fcf-4847-ae54-5e2c85b63d6e cancelled
+Order a626f47c-d640-4846-94dc-de25c593d264 cancelled
+Order 8842e5ac-ec1c-4174-914d-48233464a3fd cancelled
+Order 6d54cea8-3f5a-4ad9-aa45-626835158dea cancelled
+Order 7a45405f-e869-46fd-95ed-bc47e5ea02a3 cancelled
+Order 72966aec-2010-4b67-ac01-9fde0a091f6d cancelled
+Order 5501d783-e1f8-4d71-ab63-b53d40e39cb3 cancelled
+Order 6b412963-298f-4fc5-84b3-7f4c81769880 cancelled
+Order ac0f4ee5-9274-4c80-bd2f-1716c4c28154 cancelled
+Order e90e5d60-db83-4ae4-a807-24ab0861ce8f cancelled
+Order e4914085-1646-4c3b-bd6f-57b9db5b2748 cancelled
+Order 6db3bf5a-934f-47a0-989f-32996fe74180 cancelled
+Order e1a8c043-87df-4972-8f75-2bee4d995f58 cancelled
+Order f4547bca-fb17-40d3-9556-fd0312070230 cancelled
+Order 6cf4cabb-af28-4cff-a79d-e454e6c61ebf cancelled
+Order 08a0c1b2-6571-45c4-be95-d8731db1190b cancelled
+Order 4cc00620-fa88-440c-aea6-207d06b324c3 cancelled
+Order 8f8e7969-3270-4864-a311-fff0da2a4f23 cancelled
+Order 5d27d204-957e-46e1-891e-39840bc3102e cancelled
+Order a0318477-9f18-4519-8966-7c907fe24c8d cancelled
+Order cacb3b52-7b58-44a6-8da3-a993086d73e2 cancelled
+Order 582aa6a2-5014-4d6b-8096-bb32d8b1a254 cancelled
+Pre-extra: -495.91038513183594
+Total: 0.8896331787109375
+Minimum: 225.0
+Exit condition reached.
+
+C:\Users\Peter\PycharmProjects\Trader>
